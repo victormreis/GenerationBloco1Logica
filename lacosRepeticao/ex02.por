@@ -10,9 +10,9 @@ programa
 	{
 		inteiro soma =0
 
-		para (inteiro i = 3; i <= 500; i++)
+		para (inteiro i = 3; i <= 500; i=i+3)
 		{
-			se( i % 3 == 0)
+			se( i % 2 != 0)
 			{
 				soma = i + soma
 			}
@@ -26,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 411; 
+ * @POSICAO-CURSOR = 246; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {soma, 11, 10, 4};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
