@@ -15,7 +15,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num, total = 1  
+		inteiro num, total = 0 
 		real media = 0.0
 
 		escreva ("Digite um numero POSITIVO para iniciar o programa de acumulação: ")
@@ -30,13 +30,14 @@ programa
 		}
 
 		enquanto (num >= 0)
-		{					
+		{	
+			total++				
 			escreva ("Digite Mais um numero para continuar a acumulação: ")
 			leia(num)				
 			se(num >= 0) 
 			{
 				media = num + media	
-				total++
+				
 			}
 			
 			
@@ -51,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1035; 
+ * @POSICAO-CURSOR = 695; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {num, 18, 10, 3}-{total, 18, 15, 5}-{media, 19, 7, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

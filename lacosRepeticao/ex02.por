@@ -14,7 +14,7 @@ programa
 		{
 			se( i % 2 != 0)
 			{
-				soma = i + soma
+				soma = i + soma 
 			}
 		}
 		escreva("A soma de todos os numeros impares multiplos de 3 entre 1 e 500 é: ", soma)
@@ -26,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 246; 
+ * @POSICAO-CURSOR = 303; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {soma, 11, 10, 4};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
